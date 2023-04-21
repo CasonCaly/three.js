@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Examples index.html",
+            "file": "${workspaceRoot}/examples/index.html",
+            "runtimeArgs": [
+				"--allow-file-access-from-files",
+			],
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "webgl_animation_skinning_blending",
+            "file": "${workspaceRoot}/examples/webgl_animation_skinning_blending.html",
+            "runtimeArgs": [
+				"--allow-file-access-from-files",
+			],
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "webgl_shadowmap",
+            "file": "${workspaceRoot}/examples/webgl_shadowmap.html",
+            "runtimeArgs": [
+				"--allow-file-access-from-files",
+			],
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
